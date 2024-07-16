@@ -1,0 +1,6 @@
+projectKey=test2024
+serverUrl=http://localhost:9000
+serverVersion=9.9.4.87374
+dashboardUrl=http://localhost:9000/dashboard?id=test2024
+ceTaskId=AZC15wG8PLc_nmDaEVbW
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AZC15wG8PLc_nmDaEVbW

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automated_Clearing_House_Service__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Automated Clearing House Service</label>
+    <referenceTo>LLC_BI__Automated_Clearing_House_Service__c</referenceTo>
+    <relationshipLabel>TestLookups</relationshipLabel>
+    <relationshipName>TestLookups</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
