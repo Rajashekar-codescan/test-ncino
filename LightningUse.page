@@ -1,9 +1,15 @@
-
-<apex:page controller="SampleController" lightningStylesheets="true"> 
-  
+<apex:page >
+<html>
+<head> Visual Force Page with multiple external web pages </head>
+<body>
     <script>
 $Lightning.use("c:ShGI_ManageFinpromInvestTypesRedirect", function() {
      $Lightning.createComponent("c:ShGI_ManageFinpromInvType",{recordId:"{!JSENCODE(selectedApplicationid)}"},"compContainer",function(cmp){});
 });
 </script>
+<apex:iframe src="https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro.htm" id="theIframe"/>
+<iframe src="https://www.bing.com/"></iframe>
+<apex:iframe src="https://stackoverflow.com/questions/47740042/how-to-load-mulitple-urls-into-one-iframe" id="theIframe2"/>
+</body>
+</html>
 </apex:page>
