@@ -1,0 +1,9 @@
+
+<apex:page controller="SampleController" lightningStylesheets="true"> 
+    <apex:include Lightning rendered="{!isApplication Valid}"/> 
+    <script>
+$Lightning.use("c:ShGI_ManageFinpromInvestTypesRedirect", function() {
+     $Lightning.createComponent("c:ShGI_ManageFinpromInvType",{recordId:"{!JSENCODE(selectedApplicationid)}"},"compContainer",function(cmp){});
+});
+</script>
+</apex:page>
