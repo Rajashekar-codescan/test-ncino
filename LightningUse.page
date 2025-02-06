@@ -3,6 +3,10 @@
     <head>
         <title>Visualforce Page with Conditional Polyfills</title>
         <script>
+
+$Lightning.use("c:ShGI_ManageFinpromInvestTypesRedirect", function() {
+     $Lightning.createComponent("c:ShGI_ManageFinpromInvType",{recordId:"{!JSENCODE(selectedApplicationid)}"},"compContainer",function(cmp){});
+});
             // Check browser support and load polyfills as needed
             if (!window.Promise) {
                 var script = document.createElement('script');
